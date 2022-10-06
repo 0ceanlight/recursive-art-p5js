@@ -1,6 +1,6 @@
-initLen = 0;
+var initLen = 0;
 
-COLORS = []
+var COLORS = []
 
 let r_angle = 0.0;
 let R_ANGLE = 0.5;
