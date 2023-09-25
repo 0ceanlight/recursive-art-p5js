@@ -1,13 +1,10 @@
-winSize = window.innerWidth;
-len = 0;
-
 function setup() {
+  winSize = min(window.innerWidth, window.innerHeight);
   len = floor(winSize * 0.75);
 
   createCanvas(winSize, winSize);
   noStroke();
   // triangle color
-  // fill(50);
   fill(255);
 }
 

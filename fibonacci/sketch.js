@@ -10,7 +10,7 @@ let rootX = window.innerWidth / 2;
 let rootY = window.innerHeight / 2;
 
 // keep track of whether the shape is expanding or not
-expand = true;
+let expand = true;
 
 function setup() {
   // initLen = floor(window.innerWidth * 0.03);

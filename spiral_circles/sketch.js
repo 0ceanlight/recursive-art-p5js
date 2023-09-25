@@ -1,22 +1,22 @@
 // angle of each circle relative to last
-let CHG_ANGLE = 10;
+const CHG_ANGLE = 10;
 
 // length of the spiral chain
 chainLen = 0;
-let MAX_CHAIN_LEN = 50;
+const MAX_CHAIN_LEN = 50;
 
 // percent to decrease each circle by
-let RAD_DEC_RATE = 0.92;
+const RAD_DEC_RATE = 0.92;
 
 // deternimes number of sub-legs to generate
-let MAX_REC_DEPTH = 2;
+const MAX_REC_DEPTH = 2;
 
 // radius of biggest (center) circles
 initRad = window.innerWidth * 0.04;
 
 // center of the spiral
-let rootX = window.innerWidth * 0.5;
-let rootY = window.innerHeight * 0.5;
+const rootX = window.innerWidth * 0.5;
+const rootY = window.innerHeight * 0.5;
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
